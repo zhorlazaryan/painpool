@@ -1,0 +1,32 @@
+.card {
+    height: calc(100vh + 100px);
+    overflow: hidden;
+}
+
+#calendar {
+    position: relative;
+}
+
+#calendar .fc-content {
+    position: absolute!important;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+}
+
+#calendar .fc-content .fc-view {
+    height: 720px;
+}
+.fc-view.fc-view-agendaWeek.fc-agenda > div {
+    height: 89%;
+}
+
+div.fc-view.fc-view-agendaWeek.fc-agenda > div > div ,
+table.fc-border-separate {
+    height: 100%;
+}
+
+table.fc-border-separate {
+    height: 100%;
+    border: 1px solid #eceef4;
+}
